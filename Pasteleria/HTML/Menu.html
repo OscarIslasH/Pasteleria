@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Glotier</title>
+</head>
+
+<!-- CSS linkeado -->>
+
+<link href="C:\Users\oscar\OneDrive\Escritorio\Pasteleria\CSS\Estilos de la pagina Menu.css" rel="stylesheet" type="text/css">
+
+<body>
+    <header class="header">
+        <div class="contenedor logo-nav-contenedor">
+            <a href="#" class="logo">GLOTIER</a>
+            <nav class="Barra-de-navegacion">
+                <ul class="show">
+                    <li> <a href="C:\Users\oscar\OneDrive\Escritorio\Pasteleria\HTML\Pagina Principal.html">Inicio</a> </li> 
+                    <li> <a href="C:\Users\oscar\OneDrive\Escritorio\Pasteleria\HTML\Menu.html">Menu</a> </li> 
+                    <li> <a href="C:\Users\oscar\OneDrive\Escritorio\Pasteleria\HTML\Pedidos.html">Pedidos</a> </li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="MAIN"></main>
+    
+
+<br>
+<hr>
+<br>
+    <h1>Menu</h1>
+
+    <table class="tabladesabores" style="margin: 0 auto;">
+
+        <!--Titulos de las tablas-->
+
+        <tr> 
+            
+            <th>Sabores</th>
+            <th>Foto de los sabores</th>
+            <th>Precio del pastel</th>
+            <th>Adornos</th>
+            <th>Foto de los adornos</th>
+            <th>Precio de los adornos</th>
+            
+        
+        </tr>
+
+        <!--Tabla 1-->
+
+        <tr> 
+            <td bgcolor="#333">Chocolate </td>
+            <td bgcolor="#333"> <img src="https://i.pinimg.com/564x/42/36/b1/4236b10d070cb898106d84a6f2fa4a2c.jpg" alt="Pastel de Chocolate " width="150px" height="150px"> </td>
+            <td bgcolor="#333"> $150 </td>
+            <td bgcolor="#333"> Liston </td>
+            <td bgcolor="#333"> <img src="https://i.pinimg.com/564x/ac/0c/63/ac0c63faf8ee595420bc04f1d3e4399f.jpg" alt="Liston" width="150px" height="150px"> </td>
+            <td bgcolor="#333"> $10 </td>
+        </tr>
+
+        <!--Tabla2-->
+
+        <tr>
+            <td bgcolor="#333">Fresa </td>
+            <td bgcolor="#333"> <img src="https://i.pinimg.com/564x/cc/53/04/cc5304f916e23ca5ca15c51db450ed57.jpg" alt="Pastel de Fresa" width="150px" height="150px"> </td>
+            <td bgcolor="#333"> $130 </td>
+            <td bgcolor="#333"> Velitas </td>
+            <td bgcolor="#333"> <img src="https://i.pinimg.com/564x/85/63/b7/8563b7f0665655bf24ff3b65ddbffe13.jpg" alt="Velitas" width="150px" height="150px"> </td>
+            <td bgcolor="#333"> $25</td>
+        </tr>
+
+        <!--Tabla3-->
+
+        <tr>
+            <td bgcolor="#333">Coco </td>
+            <td bgcolor="#333"> <img src="https://i.pinimg.com/564x/26/d0/49/26d049d6214de9424412adbe60dc00d3.jpg" alt="Pastel de Coco" width="150px" height="150px"> </td>
+            <td bgcolor="#333"> $250 </td>
+            <td bgcolor="#333"> Velas tipo bengala </td>
+            <td bgcolor="#333"> <img src="https://i.pinimg.com/564x/47/aa/37/47aa3758b5922fc39481949b224e2c73.jpg" alt="Velas tipo bengala" width="150px" height="150px"> </td>
+            <td bgcolor="#333"> $30</td>
+        </tr>
+            
+        </table>
+
+    <br>
+    <hr>
+<br class="br1">
+
+<h1>Formulario</h1>
+
+    <section class="section1">
+        <nav class="nav1">
+            <h2 >Selecciona los sabores deseados</h2>
+            <h3>Puedes elegir el sabor que quieras</h3> <br>
+            <input  type="checkbox" id="Sabor1" name="Sabor1" value="Chocolate">
+            <label  for="Sabor1">Chocolate $15</label><br>
+            <input  type="checkbox" id="Sabor2" name="Sabor2" value="Fresa">
+            <label  for="Sabor2">Fresa $10</label><br>
+            <input  type="checkbox" id="Sabor3" name="Sabor3" value="Coco">
+            <label  for="Sabor3">Coco $20</label><br><br>
+        </nav>
+    </section>
+<br>
+
+<br>
+    <section>
+        <nav class="nav1">
+            <h2>Selecciona los adornos</h2><br>
+            <input type="checkbox" id="Adorno1" name="Adorno1" value="Liston con nombre">
+            <label for="Adorno1">Liston con nombre $5</label><br>
+            <input type="checkbox" id="Adorno2" name="Adorno2" value="Velitas">
+            <label for="Adorno2">Velitas $10 </label><br>
+            <input type="checkbox" id="Adorno3" name="Adorno3" value="Velas tipo vengala">
+            <label for="Adorno3">Velas tipo vengala $20</label><br><br>
+        </nav>
+    </section>
+
+    <hr>
+
+
+
+
+        <table class="table2" style="margin: 0 auto;">
+
+        
+
+        <tr>
+
+            <th><label for="psw1">Nombre</label><br>
+                <input type="password" id="psw1" name="psw1"><br><br></th>
+
+            <th> <label for="tel1">Tel Cel</label><br>
+                <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br></th>
+
+            <th><label for="correo1">Correo</label><br>
+                <input type="email" id="correo1" name="correo1"><br><br></th>
+            
+    <th><label for="Input1">Descripcion <br> del pastel</label><br>
+                <input type="text" id="Input1" name="Input1"><br><br></th>
+
+
+                
+        </tr>
+
+    </table>
+
+<br>
+    <br>
+    <a class="botonenviar" href="C:\Users\oscar\OneDrive\Escritorio\Pasteleria\HTML\Pedidos.html" target="_blank">Enviar</a>
+    <br>
+<br>
+ 
+    <footer>
+        <p><table  style="margin: 0 auto;">
+            <tr>
+                <th>Direccion</th>
+                <th>Telefono</th>
+                <th>Horarios de atencion</th>
+            </tr>
+
+            <tr>
+                <td>Calle San Benito <br> de las garzas <br> calle 19 de marzo <br> colonia albacete</td>
+                <td>55-55-55-55-55</td>
+                <td>Estamos de: <br> De lunes a viernes: <br> 10:00Am - 7:00Pm <br> Fines de semana <br> 9:00Am - 11:00Pm</td>
+            </tr>
+    
+        </table></p>
+
+
+        
+    </footer>
+
+</body>
+
+</html>
